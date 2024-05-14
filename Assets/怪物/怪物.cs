@@ -249,7 +249,7 @@ public class 怪物 : MonoBehaviour
             Time.timeScale = 主角卡帧时长;//时间控制 减速
             GameObject.Find("主角动画").GetComponent<Animator>().SetTrigger("时间减速");//
             主角.被打中 = true;
-            Instantiate(打击效果预制体, GameObject.Find("主角打击效果预制体生成位置").transform.position, GameObject.Find("主角打击效果预制体生成位置").transform.rotation);//生成打击效果预制体
+            //Instantiate(打击效果预制体, GameObject.Find("主角打击效果预制体生成位置").transform.position, GameObject.Find("主角打击效果预制体生成位置").transform.rotation);//生成打击效果预制体
             打中阶段 = 1;
             打中 = false;
         }
@@ -268,7 +268,10 @@ public class 怪物 : MonoBehaviour
         {
             GameObject.Find("主角动画").GetComponent<Renderer>().material = 原始材质球;
             if (!主角.防御 && !主角.死亡 && !主角.弹反)//如果主角没有防御 和 死亡
+            {
                 GameObject.Find("主角动画").GetComponent<Animator>().SetTrigger("受伤");//
+                Instantiate(打击效果预制体, GameObject.Find("主角打击效果预制体生成位置").transform.position, GameObject.Find("主角打击效果预制体生成位置").transform.rotation);//生成打击效果预制体
+            }
             if (主角.防御)//如果主角没有防御 和 死亡
                 主角.HP -= 攻击力 * 0.5f;
             if (!主角.防御 && !主角.弹反)//如果主角没有防御 和 死亡
