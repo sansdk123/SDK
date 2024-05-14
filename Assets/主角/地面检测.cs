@@ -8,7 +8,7 @@ public class 地面检测 : MonoBehaviour
 
     private void OnTriggerStay(Collider collision)//3D物体（要碰撞的两个物体都其中一个要勾选is Trigger   Stay是持续检测   Enter是检测一次 Exit是离开）
     {
-        if (collision.tag == "Untagged")//如果摸到tag标签是"Dimian"的物体               //玩家数据
+        if (collision.tag == "地面")//如果摸到tag标签是"Dimian"的物体               //玩家数据
         {
             摸着 = true;
         }
@@ -16,7 +16,7 @@ public class 地面检测 : MonoBehaviour
 
     private void OnTriggerExit(Collider collision)//3D物体（要碰撞的两个物体都其中一个要勾选is Trigger   Stay是持续检测   Enter是检测一次 Exit是离开）
     {
-        if (collision.tag == "Untagged")//如果摸到tag标签是"Dimian"的物体               //玩家数据
+        if (collision.tag == "地面")//如果摸到tag标签是"Dimian"的物体               //玩家数据
         {
             摸着 = false;
         }
