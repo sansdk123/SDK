@@ -3,17 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - "\u4E3B\u89D2\u653B\u51FB\u8303\u56F4"
+  - "\u955C\u5934\u505C\u6B62\u8DDF\u968F"
+  - "\u602A\u7269\u653B\u51FB\u8303\u56F4"
+  - "\u5730\u9762"
+  - "\u4E3B\u89D2"
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - "\u4E3B\u89D2"
   - Water
   - UI
-  - 
-  - 
-  - 
+  - "\u5C04\u7EBF\u906E\u6321\u5C42"
+  - "\u602A\u7269"
+  - "\u4E0D\u53D7\u5149\u7EBF"
   - 
   - 
   - 
@@ -40,4 +45,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: "\u80CC\u666F"
+    uniqueID: 969981337
+    locked: 0
+  - name: "\u4E2D\u666F"
+    uniqueID: 2865901583
+    locked: 0
+  - name: "\u524D\u666F"
+    uniqueID: 2044243263
     locked: 0

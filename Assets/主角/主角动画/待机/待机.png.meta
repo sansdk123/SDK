@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,10 +144,10 @@ TextureImporter:
       name: "\u5F85\u673A_0"
       rect:
         serializedVersion: 2
-        x: 138
+        x: 0
         y: 104
-        width: 44
-        height: 47
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: "\u5F85\u673A_1"
       rect:
         serializedVersion: 2
-        x: 470
+        x: 332
         y: 104
-        width: 44
-        height: 45
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: "\u5F85\u673A_2"
       rect:
         serializedVersion: 2
-        x: 803
+        x: 664
         y: 104
-        width: 41
-        height: 44
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: "\u5F85\u673A_3"
       rect:
         serializedVersion: 2
-        x: 139
+        x: 0
         y: 0
-        width: 41
-        height: 44
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: "\u5F85\u673A_4"
       rect:
         serializedVersion: 2
-        x: 470
+        x: 332
         y: 0
-        width: 44
-        height: 45
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: "\u5F85\u673A_5"
       rect:
         serializedVersion: 2
-        x: 802
+        x: 664
         y: 0
-        width: 44
-        height: 47
+        width: 332
+        height: 104
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

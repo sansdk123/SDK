@@ -88,8 +88,22 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.083333336
+    functionName: "\u8DD1\u6B65\u70DF\u96FE"
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.16666667
     functionName: "jump\u7A7A\u4E2D\u5047"
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: "\u8DD1\u6B65\u70DF\u96FE"
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
